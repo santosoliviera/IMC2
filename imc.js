@@ -5,7 +5,7 @@ function imc(){
         email:formados.get("email"),
         dataNasc:formados.get("nasc"),
         telefone:formados.get("tel"),
-        sexo:document.querySelector('input[name=sexo]:checked').value,
+        sexo:document.querySelector('input[name=sexo]:checked').valeu,
         peso:formados.get("peso"),
         altura:formados.get("altura"),
         classificacao:"",
