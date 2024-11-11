@@ -10,7 +10,7 @@ function imc(){
         altura:formados.get("altura"),
         classificacao:"",
         calcularIMC(){
-            if (this.altura > 3) this.altura=this.altura/100
+            if (this.altura > 3) this.altura=this.altura/2
             const imc = this.peso/this.altura**2;
             if (imc < 18.5 ) this.classificacao = "obesidade mórbida";
             if (imc >= 18.5 &&  imc < 25 ) this.classificacao = "saudável"
